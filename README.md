@@ -84,7 +84,7 @@ Try: `conda install -c conda-forge libpysal`
 
 ### Merging branches
 
-When you are satisfied with work in a working branch, you might want to merge the changes into the 'master' branch. Make sure you are in the master branch, and then `git merge 'branch_name'`. To delete the nowmerged branch, `git branch -d 'branch_name'`
+When you are satisfied with work in a working branch, you might want to merge the changes into the 'main' branch. Make sure you are in the main branch, and then `git merge 'branch_name'`. To delete the nowmerged branch, `git branch -d 'branch_name'`
 
 
 ### Working with remotes
@@ -93,7 +93,7 @@ When you are satisfied with work in a working branch, you might want to merge th
 Once you're satisfied with changes made to your local repository, you might want to push it up to GitHub. 
 1) create a new repository on github.com
 2) copy and paste the command from the creation page: `git remote add origin 'url-ending-in.git'`
-3) push (after setting up keys) using `git push -u origin master`
+3) push (after setting up keys) using `git push -u origin main`
 4) when setting up keys, you want to make sure you add the repository URL starting with `git@:` instead of `https://`
 
 
@@ -136,7 +136,7 @@ Here are a few tricks to get out of common situations:
 
          git checkout <HASH>
 
- -   You have pulled master or a collaborator\'s work and now have a
+ -   You have pulled main or a collaborator\'s work and now have a
      conflict? Open the conflicted file in an editor, and merge lines
      manually. Then:
 
@@ -247,9 +247,9 @@ Here are a few tricks to get out of common situations:
 16. Discuss your work with your reviewer. Implement fixes and
     improvements, and push again to your branch. Your PR will update
     automatically.
-17. If the original package\'s master branch gets updated between your
+17. If the original package\'s main branch gets updated between your
     cloning and the time your PR is merged, you may be asked to merge
-    master changes into your branch or rebase your branch onto the new
+    main changes into your branch or rebase your branch onto the new
     one, and resolve any conflict. To that effect, you need to define
     another remote you want to pull changes from, assuming you have
     forked the repo. In that case, the common approach is to define
@@ -258,7 +258,7 @@ Here are a few tricks to get out of common situations:
         git remote add upstream git@github.com:sjsrey/sprint_tutorial_pysal
 
     If the project you are contributing to is ok with merges of
-    master, it is easier to do the following:
+    main, it is easier to do the following:
 
         git checkout main
         git pull upstream main
@@ -280,8 +280,8 @@ Here are a few tricks to get out of common situations:
 18. Once the PR has been approved, it will be merged in the upstream
     project by someone who has push rights.
 19. After merge, there are 3 typical cleaning steps: delete the branch
-    on the remote repositories (in Github), update master locally from
-    upstream, update master in your own fork and delete the work
+    on the remote repositories (in Github), update main locally from
+    upstream, update main in your own fork and delete the work
     branch locally.:
 
         git checkout main
