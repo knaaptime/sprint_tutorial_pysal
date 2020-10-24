@@ -9,7 +9,9 @@ This tutorial is intended to teach people how to contribute to open source
 1. What you can contribute
 1. What you need
 1. How to create development environments
+1. Working with git and github
 1. How to contribute code
+1. PySAL Overview
 
 
 ## Contributing: what you need to get comfortable with
@@ -56,10 +58,18 @@ Three pieces of advice:
 * A tool to quickly create and manage light development environments (conda).
 
 
+## conda environments
+
+1. Download [miniconda](https://docs.conda.io/en/latest/miniconda.html)
+2. `conda create -n dev`
+3. `conda --info envs`
+4. `conda activate dev`
+3. `conda --info envs`
+
+Anything you add with `conda install` will now only be in the `dev` environment.
 
 
-
-## Git tutorial
+## Git 
 
 ### Working Locally
 
