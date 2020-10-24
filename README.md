@@ -1,7 +1,7 @@
 # PySAL Sprint Tutorial
 
 This tutorial is intended to teach people how to contribute to open source
- projects using the using the ``git`` command line tool and Github.
+ projects using the using the ``git`` command line tool and Github.[^sp]
 
 ## Outline
 
@@ -10,7 +10,6 @@ This tutorial is intended to teach people how to contribute to open source
 1. What you need
 1. How to create development environments
 1. How to contribute code
-1. 
 
 
 ## Contributing: what you need to get comfortable with
@@ -78,13 +77,24 @@ When you are satisfied with work in a working branch, you might want to merge th
 
 ### Working with remotes
 
-#### Pushing to remote
+#### Pushing your local repository to a new remote
 Once you're satisfied with changes made to your local repository, you might want to push it up to GitHub. 
 1) create a new repository on github.com
 2) copy and paste the command from the creation page: `git remote add origin 'url-ending-in.git'`
 3) push (after setting up keys) using `git push -u origin master`
 4) when setting up keys, you want to make sure you add the repository URL starting with `git@:` instead of `https://`
 
+
+#### Forking and cloning
+
+1. Go to the repository for this project https://github.com/sjsrey/sprint_tutorial_pysal
+2. Press the `Fork` button in the upper right of the page
+3. Clone your repository once the fork is finished
+
+
 #### Pulling new changes
 good habit to `git status` before making commits - it will tell you if your version is behind the master. 
 `git pull origin master` will pull new changes (differences only) to update your version.
+
+
+[^sp]: Portions of this tutorial were adopted from the [Scipy Sprint Tutorial](https://github.com/jonathanrocher/sprint_tutorial)
