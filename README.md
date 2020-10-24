@@ -97,16 +97,7 @@ Once you're satisfied with changes made to your local repository, you might want
 4) when setting up keys, you want to make sure you add the repository URL starting with `git@:` instead of `https://`
 
 
-#### Forking and cloning
-
-1. Go to the repository for this project https://github.com/sjsrey/sprint_tutorial_pysal
-2. Press the `Fork` button in the upper right of the page
-3. Clone your repository once the fork is finished
-
-
-#### Pulling new changes
-good habit to `git status` before making commits - it will tell you if your version is behind the master. 
-`git pull origin master` will pull new changes (differences only** to update your version.
+We will examine how to work with an existing remote below in the typical workflow.
 
 ### When things go wrong with git
 
@@ -168,9 +159,6 @@ Here are a few tricks to get out of common situations:
      stack (FILO).
 
 ## How to contribute code?
-
-How to contribute code?
------------------------
 
 ### The typical workflows
 
