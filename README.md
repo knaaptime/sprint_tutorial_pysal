@@ -1,7 +1,7 @@
 # PySAL Sprint Tutorial
 
 This tutorial is intended to teach people how to contribute to open source
- projects using the using the ``git`` command line tool and Github.[^sp]
+ projects using the using the ``git`` command line tool and Github.
 
 ## Outline
 
@@ -94,7 +94,7 @@ Once you're satisfied with changes made to your local repository, you might want
 
 #### Pulling new changes
 good habit to `git status` before making commits - it will tell you if your version is behind the master. 
-`git pull origin master` will pull new changes (differences only) to update your version.
+`git pull origin master` will pull new changes (differences only** to update your version.
 
 
-[^sp]: Portions of this tutorial were adopted from the [Scipy Sprint Tutorial](https://github.com/jonathanrocher/sprint_tutorial)
+*Portions of this tutorial were adopted from the [Scipy Sprint Tutorial](https://github.com/jonathanrocher/sprint_tutorial).*
